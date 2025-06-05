@@ -2,19 +2,20 @@ export function Home() {
     const projects = [
         {
             id: 1,
-            title: "Project One",
-            description: "A brief description of Project One.",
+            title: "Stay a while",
+            description:
+                "A platform to help people book short-term stays with local hosts. (3min spinup time for backend)",
             imageUrl: "/assets/project1.jpg",
-            liveLink: "#",
-            repoLink: "#",
+            liveLink: "https://stay-a-while-dev.netlify.app/",
+            repoLink: "https://github.com/StayAwhileOrg/stay-a-while",
         },
         {
             id: 2,
             title: "Project Two",
             description: "A brief description of Project Two.",
             imageUrl: "/assets/project2.jpg",
-            liveLink: "#",
-            repoLink: "#",
+            liveLink: "https://splendid-toffee-ea8c02.netlify.app/",
+            repoLink: "https://github.com/ChrisBerg03/semesterProject2",
         },
         {
             id: 3,
@@ -178,7 +179,6 @@ export function Home() {
                 </div>
             </section>
 
-            {/* Contact / Footer */}
             <footer
                 id="contact"
                 className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-12"
@@ -190,24 +190,13 @@ export function Home() {
                         free to reach out!
                     </p>
                     <a
-                        href="mailto:your.email@example.com"
+                        href="mailto:chrisrberg03@gmail.com"
                         className="inline-block bg-white text-purple-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
                     >
                         Say Hello
                     </a>
 
                     <div className="mt-8 flex justify-center space-x-6">
-                        {/* Placeholder social icons */}
-                        <a href="#" className="hover:text-gray-200">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path d="M22.46 6c-.77.35-1.6.6-2.46.7a4.3 4.3 0 001.9-2.4 8.6 8.6 0 01-2.7 1 4.28 4.28 0 00-7.3 3.9A12.14 12.14 0 013 4.8a4.28 4.28 0 001.3 5.7 4.3 4.3 0 01-1.9-.5v.05a4.28 4.28 0 003.4 4.2 4.3 4.3 0 01-1.9.07 4.28 4.28 0 004 3A8.6 8.6 0 012 19a12.1 12.1 0 006.5 1.9c7.8 0 12-6.5 12-12v-.6A8.5 8.5 0 0024 4.6a8.3 8.3 0 01-2.4.7 4.28 4.28 0 001.9-2.4" />
-                            </svg>
-                        </a>
                         <a href="#" className="hover:text-gray-200">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
